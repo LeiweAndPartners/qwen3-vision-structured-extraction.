@@ -27,7 +27,7 @@ The original dataset used in the production case contains sensitive data. **The 
 ## 🛠️ Quick Start (Google Colab)
 The fastest way to explore this pipeline is via our hosted notebook. It pulls the synthetic data directly from this repository.
 
-[**Click here to run the Demo in Google Colab**](INSERT_YOUR_COLAB_LINK_HERE)
+[**Click here to run the Demo in Google Colab**](https://colab.research.google.com/github/LeiweAndPartners/qwen3-vision-structured-extraction./blob/main/demo_pipeline.ipynb)
 
 ## 🧪 Synthetic Data Generation
 While this repository comes with pre-generated samples in `./data/synthetic_samples`, you can regenerate the dataset locally to test the engineering pipeline.
