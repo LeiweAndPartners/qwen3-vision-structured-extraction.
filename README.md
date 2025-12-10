@@ -28,3 +28,35 @@ The original dataset used in the production case contains sensitive data. **The 
 The fastest way to explore this pipeline is via our hosted notebook. It pulls the synthetic data directly from this repository.
 
 [**Click here to run the Demo in Google Colab**](INSERT_YOUR_COLAB_LINK_HERE)
+
+
+
+## 🧪 Synthetic Data Generation
+While this repository comes with pre-generated samples in `./data/synthetic_samples`, you can regenerate the dataset locally to test the engineering pipeline.
+
+The generation script creates a cohesive "Case File" for two fictional families, producing consistent data across **JPG** (scans), **PDF** (contracts), and **DOCX** (notes) formats.
+
+### 1. Set up the Environment
+**Mac/Linux**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+**Windows**
+```bat
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 2. Install the dependencies
+```bash
+pip install -r requirements-gen.txt
+```
+
+### 3. Generate synthetcic data
+```bash
+python generate_synthetic_data.py
+```
+
+Output will be saved to `./data/synthetic_samples`
