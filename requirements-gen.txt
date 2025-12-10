@@ -1,0 +1,5 @@
+Faker>=20.0.0
+Pillow>=10.0.0
+python-docx
+reportlab
+requests

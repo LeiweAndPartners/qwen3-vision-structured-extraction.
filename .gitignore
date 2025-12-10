@@ -1,0 +1,19 @@
+# --- Python Environment ---
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# --- System Files (Mac/Windows) ---
+.DS_Store
+Thumbs.db
+
+# --- Large Artifacts / Fonts ---
+*.otf
+*.ttf
+NotoSansCJKtc-Regular.otf
+
+# --- IDE Settings (Optional but recommended) ---
+.vscode/
+.idea/
