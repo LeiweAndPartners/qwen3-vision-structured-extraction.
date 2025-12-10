@@ -1,16 +1,15 @@
 # --- Core AI & Model Libraries ---
-# Pinned to ensure compatibility with Qwen2.5/3 VL
 torch>=2.3.0
 accelerate>=0.33.0
-bitsandbytes>=0.43.0
+bitsandbytes>=0.46.1
 einops
 sentencepiece
+qwen-vl-utils
 
-# Transformers must be installed from source for Qwen3 support until the next stable release
+# Transformers: Pinned to source for Qwen2.5/3 support
 git+https://github.com/huggingface/transformers.git
 
 # --- Document Processing ---
-# For handling PDFs and Word Docs
 pdfplumber>=0.10.0
 PyPDF2>3.0.0
 pdf2image
@@ -24,6 +23,3 @@ matplotlib
 # --- Synthetic Data Generation ---
 Faker>=20.0.0
 Pillow>=10.0.0
-
-# --- Optional/System Utils ---
-# Note: Users will also need 'poppler-utils' installed on their system (apt-get install poppler-utils)
