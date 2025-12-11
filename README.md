@@ -27,7 +27,7 @@ The original dataset used in the production case contains sensitive data. **The 
 ## 🛠️ Quick Start (Google Colab)
 The fastest way to explore this pipeline is via our hosted notebook. It pulls the synthetic data directly from this repository.
 
-[**Click here to run the Demo in Google Colab**](https://colab.research.google.com/drive/1KsezNYgBqbCpNqbcMwHLbjuPkKXemNOV)
+[**Click here to run the Demo in Google Colab**](https://colab.research.google.com/github/LeiweAndPartners/qwen3-vision-structured-extraction./blob/main/demo_pipeline.ipynb)
 
 ## 🤝 Interested in Local Data Privacy?
 We are actively researching the limits of **Air-Gapped AI** for regulated industries (FinTech, Healthcare, Legal).
