@@ -5,7 +5,7 @@ Publicly available demonstration of how to use Qwen3 to extract key documentatio
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Presented At](https://img.shields.io/badge/Presented%20At-AI%20Tinkerers%20HK-blue)](https://hong-kong.aitinkerers.org/talks/rsvp_wdu0jEPpJYA)
 
-> **A production-grade demonstration of using Open-Source Vision-Language Models (Qwen3) to transform unstructured document scans into SQL-ready databases.**
+> **A demonstration of using Open-Source Vision-Language Models (Qwen3) to transform unstructured document scans into SQL-ready databases.**
 
 ## 📖 Context
 This repository accompanies the talk given by **Marcus Leiwe** at the [AI Tinkerers Hong Kong](https://hong-kong.aitinkerers.org/) meetup. 
