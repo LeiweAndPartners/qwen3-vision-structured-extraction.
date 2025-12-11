@@ -29,6 +29,14 @@ The fastest way to explore this pipeline is via our hosted notebook. It pulls th
 
 [**Click here to run the Demo in Google Colab**](https://colab.research.google.com/github/LeiweAndPartners/qwen3-vision-structured-extraction./blob/main/demo_pipeline.ipynb)
 
+## 🤝 Interested in Local Data Privacy?
+We are actively researching the limits of **Air-Gapped AI** for regulated industries (FinTech, Healthcare, Legal).
+
+* **Building something similar?** We'd love to hear about your edge cases.
+* **Need this in production?** [Leiwe & Partners](https://leiwe.partners) helps organisations deploy auditable, private AI pipelines that withstand regulatory scrutiny.
+
+[**Connect with Marcus on LinkedIn**](https://www.linkedin.com/in/marcus-leiwe/)
+
 ## 🧪 Synthetic Data Generation
 While this repository comes with pre-generated samples in `./data/synthetic_samples`, you can regenerate the dataset locally to test the engineering pipeline.
 
@@ -52,7 +60,7 @@ python -m venv .venv
 pip install -r requirements-gen.txt
 ```
 
-### 3. Generate synthetcic data
+### 3. Generate synthetic data
 ```bash
 python generate_synthetic_data.py
 ```
