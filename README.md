@@ -4,6 +4,7 @@ Publicly available demonstration of how to use Qwen3 to extract key documentatio
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeiweAndPartners/qwen3-vision-structured-extraction./blob/main/demo_pipeline.ipynb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Presented At](https://img.shields.io/badge/Presented%20At-AI%20Tinkerers%20HK-blue)](https://hong-kong.aitinkerers.org/talks/rsvp_wdu0jEPpJYA)
+[![Featured In](https://img.shields.io/badge/AI%20Tinkerers%20Community%20Spotlights%20Issue%2011-blue)](https://post-training.aitinkerers.org/p/community-spotlights-issue-11)
 
 > **A demonstration of using Open-Source Vision-Language Models (Qwen3) to transform unstructured document scans into SQL-ready databases.**
 
